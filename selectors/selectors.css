@@ -1,0 +1,19 @@
+div p {
+    background-color: goldenrod;
+}
+p::first-letter{
+    font-size: 2rem;
+}
+p::first-line{
+    font-style: italic;
+    font-weight: bold;
+}
+p[title="parag3"]{
+    background-color: olive;
+}
+p[title="parag3"]{
+    color: aqua;
+}
+h1{
+    border: 2px solid red;
+}
